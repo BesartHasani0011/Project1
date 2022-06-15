@@ -1,53 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="CV personale">
+    <meta name="keywords" content="CV , cv , curriculum vitae">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
     <title>
         Faqja e pare
     </title>
 </head>
 <body>
-    <p><b>     Paragrafi i pare </b>
-       
-    </p>
-    <h1>titullli osht in line</h1>
-    <p><i>me italic</i></p>
-    <p><strong>me strong</strong></p>
-    <p><del>me vi permi</del></p>
-    <p><cite>me citim</cite></p>
-    <ul>
-        <li>i pari</li>
-        <li>i dyti</li>
-    </ul>
-    <ol>
-        <li>i pari </li>
-        <li>i dyti</li>
-    </ol>
-    <a href="https://www.bing.com/search?q=wikipedia&cvid=d54d1dc7a288414ca1cedbcbf7afb93a&aqs=edge.1.69i57j0l8.2697j0j1&pglt=675&FORM=ANNTA1&PC=U531">wikipedia</a>
-    <br>
-    <figure>
-        <img src="R.jpg" width="200" alt="pAMJE NE NATYRE" title="natyra">
-        <figcaption>
-            Nje natyre ne figuren e dhene
-        </figcaption>
-    </figure>
-    <table>
-        <tr>
-            <th>
-                ID
-            </th>
-            <th>
-                Emri
-            </th>
-        </tr>
-        <tr>
-            <td>
-                1
-            </td>
-            <td>
-                Besart
-            </td>
-        </tr>
-    </table>
+    <form action="#">
+        <input type="datetime-local" name="meeting" >
+        <input type="text" name="username" placeholder="username" min="8" max="20">
+        <input type="tel" name="telephone" id ="Phone"placeholder="Phone number." min="4" max="20">
+        <input type="search" name="search" id = "search" placeholder="search">
+        <input type="email" name="email" id="email" placeholder="email">
+        <input type="password" name="password" id="password" placeholder="passsord">
+        <input type="number" name="number" id="number" placeholder="number" min="5" max="10">
+        <input type="color" name="color" id="color" placeholder="color">
+        
+    </form>
+    <form action="" autocomplete="off">
+        <input type="date" name="birthday" id="birthday" placeholder="birthday">
+    </form>
+    <form action="#" autocomplete="off">
+        <input type="datetime-local" name="meeting">
+        <input type="time" name="dinner" placeholder="name">
+        <input type="week" name="week">
+
+    </form>
+
+    <form action="#" enctype="multipart/form-data">
+        <input type="file" name="image">
+        <input type="image" name="image" src="cv.jpg" width="150">
+    </form>
+
 </body>
 
 </html>
